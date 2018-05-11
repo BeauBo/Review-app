@@ -128,7 +128,7 @@ class EmployeeProfile extends Component {
             if(this.state.revieweeList.length === 0){
                 return (
                     <div className='employee-profile d-flex flex-row'>
-                        <div className='side-bar'>
+                        <div className='sidebar'>
                             <img 
                                 src='https://www.paytm.ca/wp-content/uploads/thegem-logos/logo_1c55b24df15390a4bc761ca8db08e4c4_1x.png' 
                             />
@@ -141,10 +141,15 @@ class EmployeeProfile extends Component {
                                 <Link className='setting' to={`/${this.state.user.username}/setting`}>Setting</Link>
                                 <Link className='employee-logout' to={'/login'} onClick={this.logout}>Log out</Link>
                             </div>    
-                        </div>    
-                        <div>
-                            <h2>There is no employees for you to review yet!</h2>
-                        </div>    
+                        </div>
+                        <div className='list'>
+                            <div className='header'>
+                                <h1>Required feedback list</h1>
+                            </div>
+                            <div className='d-flex flex-column feedbacks'>
+                                <h2>No required feedbacks!</h2>
+                            </div>         
+                        </div>       
                     </div>
                 )
             }

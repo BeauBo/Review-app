@@ -396,6 +396,10 @@
         }
         .feedbacks{
             padding: 1em;
+            h2{
+                margin: 2em auto;
+                color: rgba(0, 0, 0, 0.75);
+            }
             .dashboard{
                 height: 60px;
                 padding: .75em;
@@ -426,6 +430,7 @@
             }
         }
     }
+    
 }
 
 .setting-employee{
