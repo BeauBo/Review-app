@@ -7,8 +7,8 @@ Paytm-Labs
 ##### Admin:
 > username: BeauBo <br /> password: bobo123
 ##### Employee:
-> username: Michael <br />password: michael <br /> username: Dylan <br />password: dylan <br /> username: Nate <br />password: nate <br />
-username: Emma <br />password: emma <br /> username: Michelle <br />password: michelle <br /> username: Stephanie <br />password: stephanie <br />
+> username: Michael, password: michael <br /> username: Dylan, password: dylan <br /> username: Nate, password: nate <br />
+username: Emma, password: emma <br /> username: Michelle, password: michelle <br /> username: Stephanie, password: stephanie <br />
 
 #### Employee account:
 > 1.Submit the reviews requiring feedbacks <br />2.Reset the password of the account created by admin <br />3.Update their own information
