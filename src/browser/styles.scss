@@ -1,0 +1,460 @@
+
+
+
+
+.login{
+    width: 35%;
+    height: 450px;
+    border: 1px solid #d9dce0;
+    padding: 3em;
+    margin: 40px auto;
+    img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    form{
+        margin-top: 2em;
+        input{
+            margin-bottom: 2em;
+        }
+       
+    }
+    p{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+}
+
+.signup{
+    width: 35%;
+    height: 450px;
+    border: 1px solid #d9dce0;
+    padding: 3em;
+    margin: 40px auto;
+    img{
+        width: 44%;
+        margin: 0 auto;
+    }
+    form{
+        margin-top: 1.75em;
+        input{
+            margin-bottom: 1em;
+        }
+       
+    }
+    p{
+        text-align: center;
+        margin-top: 0.25em;
+    }
+    
+}
+
+.admin-profile{
+    padding: 2em 10em;
+
+    .admin-active{
+        border-bottom: 1px solid  #e36209;
+        color: #24292e;
+    }
+
+    .sidebar{
+        width: 30%;
+       // border: 1px solid black;
+        padding: 1.5em;
+        img{
+            width: 100%; 
+            border-bottom: 1px solid #d9dce0;
+            padding: 1em;
+        }
+        .user-info{
+            width: 100%;
+            border-bottom: 1px solid #d9dce0;
+            .username{
+                font-weight: 600;
+                font-size: 1.25em;
+                padding: .25em;
+                border: none;
+            }
+            .department{
+                font-size: .85em;
+                width: 30%;
+                padding: 1.25em 0 0 0;
+                border: none;
+            }
+        }
+        
+        p{
+            margin: .8em auto;
+            /* border: 1px solid red; */
+            width: 48%;
+            padding: .5em 1em;
+            font-size: .95em;
+            color: #586069;
+            transition: 0.2s ease;
+            &:hover{
+                cursor: pointer;
+                color: #24292e;
+            }
+        }
+        .admin-logout{
+            text-align: center;
+            color: #586069;
+            padding: 1em 4em 1em 1.5em;
+            border-top: 1px solid #d9dce0;
+            border-bottom: 1px solid #d9dce0;
+            &:hover{
+                cursor: pointer;
+                color: #24292e;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+.employees{
+    width: 70%;
+    padding: 2em;
+    .header{
+        border-bottom: 1px solid #d9dce0;
+        padding: .6em;
+        .title{
+            font-size: 1.8em;
+            color: rgba(0,0,0,.75);
+        }
+        .add{
+            
+            font-size: 20px;
+            padding: .5em;
+            color: rgba(0,0,0,.75);
+            &:hover{
+                cursor: pointer;
+                color: rgba(3, 102, 214, .8);
+            }
+        } 
+    }
+    .list{
+        padding: 1em;
+        .employee{
+            height: 60px;
+            padding: .75em;
+            margin-bottom: .25em;
+            transition: .2s ease;
+            &:hover{
+                border-left: 1px solid #e36209;
+            }
+            .name{
+                font-size: 1.2em;
+                color: rgba(0, 0, 0, 0.75);
+                margin-right: 2em;
+            }
+            .department{
+                font-size: .8em;
+            }
+            i{
+                margin-left: 1.1em;
+                padding: 1em 0;
+                color: rgba(0, 0, 0, 0.75);
+                transition: .2s ease;
+                &:hover{
+                    color:rgba(3, 102, 214, .8);
+                    cursor: pointer;
+                }
+            }
+            .delete:hover{
+                color: #cb2431;
+            }
+        }
+    }
+}
+
+.reviews{
+    width: 70%;
+    padding: 2em;
+    .header{
+        border-bottom: 1px solid #d9dce0;
+        padding: .6em;
+        h1{
+            font-size: 1.8em;
+            color: rgba(0,0,0,.75); 
+        }
+    }
+    .employee{
+        padding: 1em;
+        .employee-dashboard{
+            height: 60px;
+            padding: .75em;
+            margin-bottom: .25em;
+            transition: .2s ease;
+            &:hover{
+                border-left: 1px solid #e36209;
+            }
+            .name{
+                font-size: 1.2em;
+                color: rgba(0, 0, 0, 0.75);
+                margin-right: 2em;
+            }
+            .department{
+                font-size: .8em;
+                padding: .4em 0;
+            }
+            .see-reviews{
+                margin-left: 1.1em;
+                color: rgba(0, 0, 0, 0.75);
+                transition: .2s ease;
+                font-weight: 500;
+                &:hover{
+                    color:rgba(3, 102, 214, .8);
+                    cursor: pointer;
+                }
+            }
+            i{
+                color: rgba(0, 0, 0, 0.75);
+                transition: .2s ease;
+                margin-left: 2em;
+                padding: .3em 0;
+                &:hover{
+                    color:rgba(3, 102, 214, .8);
+                    cursor: pointer;
+                }  
+            }
+        }
+        .employee-reviews{
+            width: 100%;
+            .cards{
+                width: 100%;
+                height: auto;
+                max-height: 0;
+                overflow: auto;
+                transition: all .8s;
+                .card{
+                    margin-bottom: 2px;
+                    .by-whom{
+                        font-size: .9em;
+                    }
+                    .edit{
+                        color: rgba(0, 0, 0, 0.75);
+                        transition: .2s ease;
+                        margin-right: 2em;
+                        &:hover{
+                            color:rgba(3, 102, 214, .8);
+                            cursor: pointer;
+                        } 
+                    }
+                }
+            }
+            
+        }
+        .employee-reviews.expand-reviews{
+            .cards{
+                max-height: 1000px;
+            }
+            
+        }
+    }
+}
+
+.assign{
+    width: 70%;
+    padding: 2em;
+    .header{
+        border-bottom: 1px solid #d9dce0;
+        padding: .6em;
+        h1{
+            font-size: 1.8em;
+            color: rgba(0,0,0,.75); 
+        }
+    }
+    .selecting{
+        margin: 3em 0 0 3em;
+        h5{
+            color: rgba(0, 0, 0, 0.75);
+            margin-bottom: 1.5em; 
+        }
+        select{
+            width: 50%;
+            margin-right: 1.5em;
+            height: 2em;
+        }
+        .select-reviewers{
+            margin-top: 1.5em;
+            .reviewer-list{
+                width: 234px;
+                height: 100px;
+                .reviewer{
+                    p{
+                        font-size: .8em;
+                        background: #d9dce0;
+                        margin-right: .1em;
+                        height: 1.5em;
+                        transition: .2s ease;
+                        &:hover{
+                            cursor: pointer;
+                            background: #eee;
+                        }
+                    }
+                    span{
+                        font-size: .6em;
+                        background: #d9dce0;
+                        margin-right: .5em;
+                        height: 2em;
+                        transition: .2s ease;
+                        &:hover{
+                            cursor: pointer;
+                            background: #eee;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+.employee-profile{
+    padding: 2em 10em;
+    .sidebar{
+        width: 30%;
+       // border: 1px solid black;
+        padding: 1.5em;
+        img{
+            width: 100%; 
+            border-bottom: 1px solid #d9dce0;
+            padding: 1em;
+        }
+        .user-info{
+            width: 100%;
+            border-bottom: 1px solid #d9dce0;
+            .username{
+                font-weight: 600;
+                font-size: 1.25em;
+                padding: .25em;
+                border: none;
+            }
+            .department{
+                font-size: .85em;
+                width: 30%;
+                padding: 1.25em 0 0 0;
+                border: none;
+            }
+        }
+        
+        p{
+            margin: .8em auto;
+            width: 48%;
+            padding: .5em 1em;
+            font-size: .95em;
+            color: #586069;
+            transition: 0.2s ease;
+            &:hover{
+                cursor: pointer;
+                color: #24292e;
+            }
+        }
+        .messages{
+            span{
+                background: rgba(3, 102, 214, 0.8);
+                color: #fff;
+                border-radius: 50%;
+                padding: .1em .4em;
+                margin-left: .8em;
+                font-weight: 500;
+            }
+        }
+        .setting{
+            text-align: center;
+            color: #586069;
+            padding: 1em 4em 1em 1.5em;
+            &:hover{
+                cursor: pointer;
+                color: #24292e;
+                text-decoration: none;
+            }
+        }
+        .employee-logout{
+            text-align: center;
+            color: #586069;
+            padding: 1em 4em 1em 1.5em;
+            border-bottom: 1px solid #d9dce0;
+            &:hover{
+                cursor: pointer;
+                color: #24292e;
+                text-decoration: none;
+            }
+        }
+    }
+    .list{
+        width: 70%;
+        padding: 2em;
+        .header{
+            border-bottom: 1px solid #d9dce0;
+            padding: .6em;
+            h1{
+                font-size: 1.8em;
+                color: rgba(0,0,0,.75); 
+            }
+        }
+        .feedbacks{
+            padding: 1em;
+            .dashboard{
+                height: 60px;
+                padding: .75em;
+                margin-bottom: .25em;
+                transition: .2s ease;
+                &:hover{
+                    border-left: 1px solid #e36209;
+                }
+                .reviewee{
+                    font-size: 1.2em;
+                    color: rgba(0, 0, 0, 0.75);
+                    margin-right: 2em;
+                }
+                .department{
+                    font-size: .8em;
+                    padding: .4em 0;
+                }
+                i{
+                    color: rgba(0, 0, 0, 0.75);
+                    transition: .2s ease;
+                    margin-left: 2em;
+                    padding: .3em 0;
+                    &:hover{
+                        color:rgba(3, 102, 214, .8);
+                        cursor: pointer;
+                    }  
+                } 
+            }
+        }
+    }
+}
+
+.setting-employee{
+    width: 35%;
+    height: 450px;
+    border: 1px solid #d9dce0;
+    padding: 3em;
+    margin: 40px auto;
+    .header{
+        h3{
+            color: rgba(0, 0, 0, 0.75)
+        }
+        p{
+            padding: .55em;
+            margin-left: 1em;
+        }
+    }
+    form{
+        input{
+            margin-bottom: .8em;
+        }
+       
+    }
+}
+
+
+textarea{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
