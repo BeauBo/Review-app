@@ -12,4 +12,6 @@ Paytm-Labs
 > NodeJS(Express), MongoDB(Mongoose), mLab
 #### Rendering method
 > Server side rendering
+#### Link to the app
+*https://paytm-labs-review-app.herokuapp.com/*
 
